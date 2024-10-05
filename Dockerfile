@@ -1,4 +1,4 @@
-FROM statisticsnorway/alpine-jdk11-buildtools:latest as build
+FROM descoped/alpine-jdk11-buildtools:latest as build
 
 RUN ["jlink", "--strip-debug", "--no-header-files", "--no-man-pages", "--compress=2", "--module-path", "/opt/jdk/jmods", "--output", "/linked",\
  "--add-modules", "java.base"]

@@ -3,7 +3,7 @@ version: '3.3'
 services:
 
   lds:
-    image: statisticsnorway/lds-memory:latest
+    image: descoped/lds-memory:latest
     networks:
     - ldsloadtest
     ports:

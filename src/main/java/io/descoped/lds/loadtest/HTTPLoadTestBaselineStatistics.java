@@ -1,4 +1,4 @@
-package no.ssb.lds.loadtest;
+package io.descoped.lds.loadtest;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;

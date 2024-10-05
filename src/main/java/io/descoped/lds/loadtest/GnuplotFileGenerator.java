@@ -1,4 +1,4 @@
-package no.ssb.lds.loadtest;
+package io.descoped.lds.loadtest;
 
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;

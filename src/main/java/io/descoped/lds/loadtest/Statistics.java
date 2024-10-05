@@ -1,4 +1,4 @@
-package no.ssb.lds.loadtest;
+package io.descoped.lds.loadtest;
 
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 

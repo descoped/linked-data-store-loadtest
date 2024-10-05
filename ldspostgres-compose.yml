@@ -3,7 +3,7 @@ version: '3.3'
 services:
 
   lds:
-    image: statisticsnorway/lds-postgres:latest
+    image: descoped/lds-postgres:latest
     networks:
     - ldsloadtest
     ports:
