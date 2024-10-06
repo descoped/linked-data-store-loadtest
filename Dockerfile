@@ -25,4 +25,4 @@ ENV PATH=/opt/jdk/bin:$PATH
 
 VOLUME ["/loadtest", "/results"]
 
-CMD ["java", "-cp", "/opt/plotgen/*:/opt/plotgen/lib/*", "no.ssb.lds.loadtest.HTTPLoadTestBaselineStatistics"]
+CMD ["java", "-cp", "/opt/plotgen/*:/opt/plotgen/lib/*", "io.descoped.lds.loadtest.HTTPLoadTestBaselineStatistics"]
